@@ -1,0 +1,312 @@
+/***** Navegacao *****/
+.myphoto {
+    max-width: 100%;
+    border-radius: 3px;
+  }
+  
+  .texto {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    position: absolute;
+  }
+  
+  .navegacao {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 260px;
+    height: 100%;
+    background-color: #fcab10;
+    background-image: url(../img/texture.jpeg);
+    background-blend-mode: multiply;
+    position: fixed;
+    padding: 15px;
+  }
+  
+  .navegacao>a {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    white-space: nowrap;
+    color: #202020;
+    font-weight: 600;
+    font-size: 0.6rem;
+    border-radius: 3px;
+    padding: 10px;
+  }
+  
+  .navegacao>a>img {
+    width: 8%;
+  }
+  
+  header {
+    width: 215px;
+  }
+  
+  .navegacao>a:hover {
+    background-color: #f3a000;
+    box-shadow: inset 2px 2px 5px #20202080;
+  }
+  
+  /***** fim Navegacao *****/
+  
+  /***** Introducao *****/
+  .sobremim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .me {
+    display: block;
+    line-height: 60px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 63%;
+    box-shadow: 0.7rem 0 0 #fcab10;
+    animation: mark 0.5s step-end infinite alternate, write 3s steps(20, end);
+  }
+  
+  .plus-me {
+    display: flex;
+    gap: 47px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 13px;
+  }
+  
+  .redes {
+    margin-top: 20px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+  }
+  
+  .redes>a>img {
+    width: 40px;
+  }
+  
+  .redes>a:hover {
+    transform: scale(1.1);
+    transition: 2s;
+  }
+  
+  .portifolio {
+    padding: 7px 8px;
+    border-radius: 3px;
+    color: #5a3f0b;
+    font-weight: 600;
+    background: linear-gradient(1deg, #fcab10 0%, #c78e23 100%);
+  }
+  
+  .descri {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #555555;
+    text-align: center;
+  }
+  
+  /***** fim Introducao *****/
+  
+  /***** formacao *****/
+  .formacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+  }
+  
+  .titulo-form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .grau {
+    font-size: 20px;
+  }
+  
+  .instituicao {
+    color: #555555;
+    font-size: 14px;
+  }
+  
+  .andamento {
+    color: #fcab10;
+    font-weight: 600;
+    font-size: 13px;
+  }
+  
+  /***** fim formacao *****/
+  
+  /***** experiencia *****/
+  .experiencias {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+  
+  .exp {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .exp>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .exp>ul>li {
+    list-style: inside;
+    margin-left: 10px;
+  }
+  
+  .cargo {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  
+  /***** fim experiencia *****/
+  
+  /***** habilidades *****/
+  
+  .listas {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-content: center;
+  }
+  
+  .listas>ul {
+    display: flex;
+    gap: 33px;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .listas>ul>li {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    width: 120px;
+    height: 160px;
+    background-color: #2020208c;
+    padding: 20px;
+    border: 2px solid #f3a000;
+    border-radius: 10px;
+  
+  }
+  
+  .listas>ul>li>img {
+    width: 90px;
+    transition: 1.2s;
+  }
+  
+  .listas>ul>li>:hover {
+    transform: scale(1.2);
+  }
+  
+  /***** fim habilidades *****/
+  
+  /***** cursos *****/
+  .cursos {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  /***** fim cursos *****/
+  
+  /***** contato *****/
+  .contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+  }
+  
+  .contato-span {
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .contact-me {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    width: 100%;
+  }
+  
+  .modal {
+    position: absolute;
+    background: #202020;
+    padding: 20px;
+    box-shadow: 5px 5px 7px rgb(82 82 82 / 56%);
+    border-radius: 3px;
+    top: -103px;
+    z-index: 9;
+  }
+  
+  .modal>p {
+    color: white;
+  }
+  
+  .btn-confirmar {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .confirmar {
+    cursor: pointer;
+    background-color: #f3a000;
+    box-shadow: inset 2px 2px 5px #ffffff80;
+    padding: 5px 30px;
+    border-radius: 3px;
+    font-weight: 700;
+  }
+  
+  .contact-me>a,
+  .cv>a {
+    background: linear-gradient(1deg, #fcab10 0%, #c78e23 100%);
+    padding: 7px;
+    border-radius: 3px;
+    width: 200px;
+    white-space: nowrap;
+    text-align: center;
+    font-weight: 600;
+    color: #5a3f0b;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  
+  .contact-me>a:hover {
+    transform: scale(1.1);
+    transition: 2s;
+  }
+  
+  .qualificacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  /***** dim contato *****/
+  
+  /* footer */
+  .creditos {
+    position: absolute;
+    bottom: 30px;
+  }

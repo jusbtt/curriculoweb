@@ -1,0 +1,179 @@
+@media(max-width: 900px) {
+    header {
+        display: none;
+    }
+
+    section {
+        max-width: 370px;
+        height: 70vh;
+    }
+
+    .experiencia{
+        height: 96vh;
+        margin-top: 40vh;
+    }
+
+    main {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .sobremim {
+        height: 60vh;
+        margin-top: 220px;
+    }
+
+    .me {
+        width: 95%;
+        font-size: 45px;
+    }
+
+    .plus-me {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .redes>a>img {
+        width: 27px;
+    }
+
+    .contact-me {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .portifolio {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .form {
+        position: relative;
+    }
+
+    .andamento {
+        position: absolute;
+        bottom: -20px;
+    }
+
+    .exp {
+        position: relative;
+    }
+
+    .curso {
+        position: relative;
+    }
+
+    .contato {
+      margin-top: -30vh;
+    }
+
+    .listas>ul {
+        gap: 10px;
+    }
+
+    .listas>ul>li {
+        width: 65PX;
+        height: 80px;
+    }
+}
+
+@media(min-width: 1920px) {
+
+    .btn-trocar {
+        font-size: 1.3rem;
+        padding: 18px;
+        top: 15px;
+        right: 15px;
+    }
+
+    .navegacao {
+        max-width: 260px;
+    }
+
+    .navegacao>a {
+        font-size: 0.90rem;
+        padding: 20px;
+    }
+
+    section {
+        max-width: 1200px;
+        width: 1200px;
+    }
+
+    .me {
+        width: 82%;
+        line-height: 115px;
+        font-size: 125px;
+    }
+
+    .plus-me {
+        font-size: 19px;
+    }
+
+    .redes>a>img {
+        width: 55px;
+    }
+
+    .portifolio {
+        padding: 15px 18px;
+    }
+
+    .descri {
+        font-size: 17px;
+    }
+
+    h2 {
+        font-size: 88px;
+    }
+
+    .form>span {
+        font-size: 16px;
+    }
+
+    .grau {
+        font-size: 27px;
+    }
+
+    .instituicao {
+        font-size: 20px;
+    }
+
+    .andamento {
+        font-size: 16px;
+    }
+
+    .cargo {
+        font-size: 27px;
+        margin-bottom: 5px;
+    }
+
+    li>span {
+        font-size: 25px;
+    }
+
+    .progresso {
+        padding: 15px;
+    }
+
+    .contato-span {
+        font-size: 20px;
+    }
+
+    .contact-me>a {
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .creditos>span {
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 2540px) {
+    .me {
+        line-height: 112px;
+    }
+}

@@ -1,0 +1,107 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #202020;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2 {
+    font-size: 70px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+}
+
+body::-webkit-scrollbar {
+    width: 0.7rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: linear-gradient(1deg, #FCAB10 0%, #c78e23 100%);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #202020;
+    border-radius: 4px;
+}
+
+.btn-trocar img {
+    width: 1.8rem;
+}
+
+.btn-trocar {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 0.6rem;
+    background: #eeeeee;
+    gap: 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px #20202080;
+    z-index: 99;
+}
+
+section {
+    max-width: 880px;
+    width: 880px;
+    height: 100vh;
+}
+
+.d-none {
+    display: none;
+}
+
+body {
+    display: flex;
+    background-image: url(../img/texture2.jpg);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 250px;
+    width: 96%;
+    padding-left: 63px;
+    background: #fffaf1;
+    background-image: url(../img/texture1.jpg);
+    background-size: contain;
+
+}
+
+@keyframes write {
+    0% {
+        width: 0
+    }
+}
+
+@keyframes mark {
+    40% {
+        box-shadow: 0.7rem 0 0 transparent
+    }
+}
